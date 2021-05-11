@@ -22,6 +22,7 @@ namespace Primitiva
         public ArrayList combinacionUsuario = new();
         public int reintegroGanador;
         public int reintegroUsuario;
+
         public void generarCombinacionGanadora()
         {
             Random rnd = new Random();
@@ -38,6 +39,7 @@ namespace Primitiva
             }
             combinacionGanadora.Sort();
         }
+
         private void clearButton_Click(object sender, EventArgs e)
         {
             checkBox1.Checked = false;
@@ -128,6 +130,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox3.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(3);
@@ -147,6 +150,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox4.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(4);
@@ -166,6 +170,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox5.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(5);
@@ -205,6 +210,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox7.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(7);
@@ -224,6 +230,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox8.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(8);
@@ -243,6 +250,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox9.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(9);
@@ -262,6 +270,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox10.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(10);
@@ -281,6 +290,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox11.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(11);
@@ -300,6 +310,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox12.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(12);
@@ -319,6 +330,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox13.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(13);
@@ -338,6 +350,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox14.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(14);
@@ -357,6 +370,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox15.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(15);
@@ -376,6 +390,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox16.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(16);
@@ -395,6 +410,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox17.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(17);
@@ -414,6 +430,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox18.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(18);
@@ -433,6 +450,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox19.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(19);
@@ -452,6 +470,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox20.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(20);
@@ -471,6 +490,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox21.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(21);
@@ -490,6 +510,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox22.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(22);
@@ -509,6 +530,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox23.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(23);
@@ -528,6 +550,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox24.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(24);
@@ -547,6 +570,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox25.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(25);
@@ -566,6 +590,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox26.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(26);
@@ -585,6 +610,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox27.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(27);
@@ -604,6 +630,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox28.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(28);
@@ -623,6 +650,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox29.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(29);
@@ -642,6 +670,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox30.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(30);
@@ -661,6 +690,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox31.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(31);
@@ -680,6 +710,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox32.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(32);
@@ -699,6 +730,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox33.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(33);
@@ -718,6 +750,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox34.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(34);
@@ -737,6 +770,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox35.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(35);
@@ -756,6 +790,7 @@ namespace Primitiva
                 MessageBox.Show("No puedes seleccionar más números.", "Error");
                 return;
             }
+
             if (checkBox36.Checked && combinacionUsuario.Count < 6)
             {
                 combinacionUsuario.Add(36);
