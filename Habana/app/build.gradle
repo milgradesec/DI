@@ -1,0 +1,24 @@
+
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'com.google.guava:guava:30.1.1-jre'
+}
+
+application {
+    mainClass = 'salon_habana.MainWindow'
+}
+
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'salon_habana.MainWindow'
+    }
+}
