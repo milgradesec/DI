@@ -10,3 +10,18 @@ updates:
     directory: "/Habana/app"
     schedule:
       interval: "weekly"
+
+  - package-ecosystem: "nuget"
+    directory: "/Caribe"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "nuget"
+    directory: "/Primitiva"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "nuget"
+    directory: "/VisorImagen"
+    schedule:
+      interval: "weekly"
