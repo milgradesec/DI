@@ -1,0 +1,12 @@
+version: 2
+
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/Formulario"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "gradle"
+    directory: "/Habana/app"
+    schedule:
+      interval: "weekly"
